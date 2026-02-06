@@ -8,4 +8,4 @@ COPY . /frontend
 RUN npm run dev
 
 FROM nginx:latest
-COPY --from=frontend /frontend/dist/ /usr/share/nginx/html
+COPY --from=frontend /frontend/dist/ /usr/share/nginx/html /Marius Nguyen was Here
